@@ -2,6 +2,7 @@ import { Hero } from '@/components/hero'
 import { InfoSection } from '@/components/info-section'
 import { SiteFooter } from '@/components/site-footer'
 import { SiteHeader } from '@/components/site-header'
+import { TableGallery } from '@/components/table-gallery'
 
 const SAMPLE_URL = 'https://01a00f36-aa20-7386-b245-6edc4e38f5c0.arena.site'
 
@@ -18,6 +19,8 @@ export default function Page() {
             made. Those first pieces are the foundation for the company.
           </p>
         </InfoSection>
+
+        <TableGallery />
 
         <InfoSection id="why" index="02" eyebrow="Why it matters" title="Turning a craft into a company">
           <p>The goal is simple: to start a company that sells epoxy-wood tables.</p>

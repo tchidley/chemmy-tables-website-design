@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 const links = [
   { href: '#about', label: 'About' },
+  { href: '#tables', label: 'Tables' },
   { href: '#why', label: 'Why' },
   { href: '#maker', label: 'Maker' },
 ]

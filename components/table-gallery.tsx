@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { Molecule } from '@/components/molecule'
 
 const tables = [
   {
@@ -26,8 +27,12 @@ const tables = [
 
 export function TableGallery() {
   return (
-    <section id="tables" className="scroll-mt-20 border-t border-border">
-      <div className="mx-auto max-w-6xl px-6 py-24">
+    <section id="tables" className="relative scroll-mt-20 overflow-hidden border-t border-border">
+      <Molecule
+        variant="benzene"
+        className="pointer-events-none absolute -left-10 top-10 h-auto w-40 -rotate-12 text-primary opacity-[0.08] md:w-56"
+      />
+      <div className="relative mx-auto max-w-6xl px-6 py-24">
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-primary">The work so far</p>

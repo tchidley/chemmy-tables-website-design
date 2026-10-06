@@ -13,7 +13,7 @@ export default function Page() {
       <main>
         <Hero />
 
-        <InfoSection id="about" index="01" eyebrow="What it is" title="Epoxy-wood tables">
+        <InfoSection id="about" index="01" eyebrow="What it is" title="Epoxy-wood tables" molecule="benzene">
           <p>
             Chemmy Tables started with a logo and a set of epoxy-wood tables that have already been
             made. Those first pieces are the foundation for the company.
@@ -22,11 +22,11 @@ export default function Page() {
 
         <TableGallery />
 
-        <InfoSection id="why" index="02" eyebrow="Why it matters" title="Turning a craft into a company">
+        <InfoSection id="why" index="02" eyebrow="Why it matters" title="Turning a craft into a company" molecule="naphthalene">
           <p>The goal is simple: to start a company that sells epoxy-wood tables.</p>
         </InfoSection>
 
-        <InfoSection id="maker" index="03" eyebrow="Who made it" title="Tristan Chidley">
+        <InfoSection id="maker" index="03" eyebrow="Who made it" title="Tristan Chidley" molecule="phenol">
           <p>Chemmy Tables is founded and made by Tristan Chidley.</p>
           <a
             href={SAMPLE_URL}
